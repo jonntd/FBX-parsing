@@ -4,7 +4,7 @@
 读取fbx mesh 和 materials 
 {"meshs": ["pSphere1"],"materials": ["lambert5","lambert3","lambert2","lambert7","lambert1","lambert6","lambert4"]}
 
-
+```python
 import subprocess
 import json
 
@@ -17,4 +17,4 @@ fbx_data = json.loads(out)
 materials_order = fbx_data['materials']
 print(materials_order)
 # ['lambert5', 'lambert3', 'lambert2', 'lambert7', 'lambert1', 'lambert6', 'lambert4']
-
+```
