@@ -2,6 +2,7 @@
 
 
 读取fbx mesh 和 materials 
+
 {"meshs": ["pSphere1"],"materials": ["lambert5","lambert3","lambert2","lambert7","lambert1","lambert6","lambert4"]}
 
 ```python
